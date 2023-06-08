@@ -1,13 +1,28 @@
-let name = prompt("Введите имя"); alert (`Привет, ${name}!`);
-let age = +prompt("Введите возраст");
+let name = prompt("Как тебя зовут друг?"); alert (`Привет, ${name}!`);
+let age = +(prompt("Сколько тебе друг?"));
 // let element = document.getElementById('el1');
 // console.log(element);
 // добавляем класс элементы
 // element.classList.add('active');
 // element.classList.remove('active');
 
-let count = 0;
+switch (age) {
+    case 18: {
+        alert('Заходи друг не стесняйся');
+        break;
+    }        
+    case 10: {
+        alert('А кто за тебя уроки сделает? Иди учись');
+        break;
+    } 
+    case 30: {
+        alert('Тебе точно сюда надо? Иди спать');
+        break;
+    }        
+    default: alert('Мне нечего тебе сказать');
+}
 
+// let count = 0;
 function pleaseClick() {
     // alert('Ещё, ещё, ещё')
     let element = document.getElementById('el1');
