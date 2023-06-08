@@ -7,15 +7,19 @@ let age = +(prompt("Сколько тебе друг?"));
 // element.classList.remove('active');
 
 switch (age) {
-    case 18: {
+    case ((age >= 0 && age <= 6) ? age : -1): {
+        alert('Ты ещё читать не умеешь малютка');
+        break;
+    } 
+    case ((age >= 19 && age <= 30) ? age : -1): {
         alert('Заходи друг не стесняйся');
         break;
     }        
-    case 10: {
+    case ((age >= 7 && age <= 18) ? age : -1): {
         alert('А кто за тебя уроки сделает? Иди учись');
         break;
     } 
-    case 30: {
+    case ((age >= 30 && age <= 60) ? age : -1): {
         alert('Тебе точно сюда надо? Иди спать');
         break;
     }        
