@@ -73,6 +73,7 @@ a {
 
 .active1 {
     color: transparent;
+    font-size:0px;
 }
 
 .active1:after  {
@@ -83,6 +84,7 @@ a {
 
 .active2 {
     color: transparent;
+    font-size:0px;
 }
 
 .active2:after {    
