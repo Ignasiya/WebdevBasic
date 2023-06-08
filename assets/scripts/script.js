@@ -29,12 +29,12 @@ function pleaseClick() {
     // count % 2 == 0 ? element.classList.add('active') : element.classList.remove('active');
     // count++;
     // contains вместо toggle
-    element.classList.toggle('active');
+    element.classList.toggle('active1');
 }
 
 function pleaseClickBtn2() {
     let element = document.getElementById('menz');
-    element.classList.toggle('active');
+    element.classList.toggle('active2');
 }
 
 let btn1 = document.getElementById('btn1');

@@ -71,8 +71,23 @@ a {
     padding: 20px 10px 20px 30px;
 }
 
-.active {
+.active1 {
+    color: transparent;
+}
+
+.active1:after  {
     color: red;
+    content: "ПОПРОБУЙ НАЙДИ";
+    font-size: 40px;
+}
+
+.active2 {
+    color: transparent;
+}
+
+.active2:after {    
+    color: red;
+    content: 'АДСКАЯ КУХНЯ';
     font-size: 40px;
 }
 
