@@ -50,3 +50,26 @@ btn1.addEventListener('click', pleaseClick);
 let btn2 = document.getElementById('btn2');
 console.log(btn2)
 btn2.addEventListener('click', pleaseClickBtn2);
+
+async function sendRequest(event) {
+    // получили значение в input
+    let name = document.getElementsByTagName('input')[0].value;
+    let url = 'https://jsonplaceholder.typicode.com/photos/';
+    event.preventDefault();//не обновлять страницу
+    // отправляем запрос на сервер, чтобы записать данные
+    let response = await fetch(url, 
+        {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            // для преобразования в JSON
+            body: JSON.stringify(name)
+        });
+    // ответ сервера
+    alert(response.status);
+    alert(name);
+}
+
+let form = document.getElementById('form');
+form.addEventListener('submit', sendRequest);
