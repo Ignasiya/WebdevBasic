@@ -29,16 +29,18 @@ switch (age) {
 // let count = 0;
 function pleaseClick() {
     // alert('Ещё, ещё, ещё')
-    let element = document.getElementById('el1');
+    let element1 = document.getElementById('el1');
+    let element2 = document.getElementById('menz');
     // count % 2 == 0 ? element.classList.add('active') : element.classList.remove('active');
     // count++;
     // contains вместо toggle
-    element.classList.toggle('active1');
+    element1.classList.toggle('active1');
+    element2.classList.toggle('active2');
 }
 
 function pleaseClickBtn2() {
-    let element = document.getElementById('menz');
-    element.classList.toggle('active2');
+    let element = document.getElementById('limen');
+    element.classList.toggle('active3');
 }
 
 let btn1 = document.getElementById('btn1');

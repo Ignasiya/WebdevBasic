@@ -93,6 +93,11 @@ a {
     font-size: 40px;
 }
 
+.active3 {
+    color: rgb(190, 10, 214);
+    font-size: 30px;
+}
+
 #btn1 {
     font-size: 20px;
     width: 250px;
@@ -101,10 +106,30 @@ a {
     background-color: #2a2650;
 }
 
+#btn1 {
+    font-size: 20px;
+    width: 250px;
+    height: 100px;
+    color: white;
+    background-color: #2a2650;
+}
+
+#btn1:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+
 #btn2 {
     font-size: 20px;
     width: 250px;
     height: 100px;
     color: white;
     background-color: #2a2650;
+}
+
+#btn2:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
 }
