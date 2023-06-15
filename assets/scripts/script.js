@@ -48,4 +48,3 @@ btn1.addEventListener('click', pleaseClick);
 let btn2 = document.getElementById('btn2');
 console.log(btn2)
 btn2.addEventListener('click', pleaseClickBtn2);
-
